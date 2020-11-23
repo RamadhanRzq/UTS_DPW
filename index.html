@@ -3,7 +3,6 @@
     $kelas = ['SE-02-A','SE-02-B','SE-02-C'];
     $sql ="SELECT * FROM data";
     $data =$conn->query($sql);
-    $jumlah_data = $conn->query(mysqli_num_rows($data));
 ?>
 <!doctype html>
 <html lang="en">
@@ -18,7 +17,6 @@
   </head>
   <body>
    
-
     <div class="container">
         <h1 class="text-center mt-5 mb-5">Form Mahasiswa</h1>
         <div class="row">
